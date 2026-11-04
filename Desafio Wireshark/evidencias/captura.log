@@ -1,0 +1,4 @@
+Capturing on 'Adapter for loopback traffic capture'
+File: D:\Desafios\Desafio Wireshark\evidencias\login_http.pcapng
+Packets: 1 Packets: 30 Packets captured: 30
+Packets received/dropped on interface 'Adapter for loopback traffic capture': 30/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

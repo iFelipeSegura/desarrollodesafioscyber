@@ -1,0 +1,167 @@
+[
+  {
+    "_index": "packets-2026-11-03",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback",
+            "frame.interface_description": "Adapter for loopback traffic capture"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "2026-11-03T23:32:55.541037200Z",
+          "frame.time_utc": "2026-11-03T23:32:55.541037200Z",
+          "frame.time_epoch": "2026-11-03T23:32:55.541037200Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000037800",
+          "frame.time_relative": "0.003683300",
+          "frame.number": "20",
+          "frame.len": "75",
+          "frame.cap_len": "75",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ip:tcp:http:urlencoded-form",
+          "frame.encoding": "0"
+        },
+        "null": {
+          "null.family": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "71",
+          "ip.id": "0x75ee",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x86c0",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "50600",
+          "tcp.dstport": "8090",
+          "tcp.port": "50600",
+          "tcp.port": "8090",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "6",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "31",
+          "tcp.seq": "194",
+          "tcp.seq_raw": "4253231668",
+          "tcp.nxtseq": "225",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1849308645",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "255",
+          "tcp.window_size": "65280",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xb909",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000319800",
+            "tcp.time_delta": "0.000037800"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.000147200",
+            "tcp.analysis.bytes_in_flight": "31",
+            "tcp.analysis.push_bytes_sent": "31"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "75:73:75:61:72:69:6f:3d:61:64:6d:69:6e:26:70:61:73:73:77:6f:72:64:3d:61:64:6d:69:6e:31:32:33",
+          "tcp.segment_data": "75:73:75:61:72:69:6f:3d:61:64:6d:69:6e:26:70:61:73:73:77:6f:72:64:3d:61:64:6d:69:6e:31:32:33"
+        },
+        "tcp.segments": {
+          "tcp.segment": "18",
+          "tcp.segment": "20",
+          "tcp.segment.count": "2",
+          "tcp.reassembled.length": "224",
+          "tcp.reassembled.data": "50:4f:53:54:20:2f:6c:6f:67:69:6e:20:48:54:54:50:2f:31:2e:31:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:69:64:65:6e:74:69:74:79:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:33:31:0d:0a:48:6f:73:74:3a:20:31:32:37:2e:30:2e:30:2e:31:3a:38:30:39:30:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:50:79:74:68:6f:6e:2d:75:72:6c:6c:69:62:2f:33:2e:31:35:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:2d:77:77:77:2d:66:6f:72:6d:2d:75:72:6c:65:6e:63:6f:64:65:64:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:63:6c:6f:73:65:0d:0a:0d:0a:75:73:75:61:72:69:6f:3d:61:64:6d:69:6e:26:70:61:73:73:77:6f:72:64:3d:61:64:6d:69:6e:31:32:33"
+        },
+        "http": {
+          "POST /login HTTP/1.1\\r\\n": {
+            "http.request.method": "POST",
+            "http.request.uri": "/login",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.accept_encoding": "identity",
+          "http.request.line": "Accept-Encoding: identity\r\n",
+          "http.content_length_header": "31",
+          "http.content_length_header_tree": {
+            "http.content_length": "31"
+          },
+          "http.request.line": "Content-Length: 31\r\n",
+          "http.host": "127.0.0.1:8090",
+          "http.request.line": "Host: 127.0.0.1:8090\r\n",
+          "http.user_agent": "Python-urllib/3.15",
+          "http.request.line": "User-Agent: Python-urllib/3.15\r\n",
+          "http.content_type": "application/x-www-form-urlencoded",
+          "http.request.line": "Content-Type: application/x-www-form-urlencoded\r\n",
+          "http.connection": "close",
+          "http.request.line": "Connection: close\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.request.full_uri": "http://127.0.0.1:8090/login",
+          "http.file_data": "75:73:75:61:72:69:6f:3d:61:64:6d:69:6e:26:70:61:73:73:77:6f:72:64:3d:61:64:6d:69:6e:31:32:33"
+        },
+        "urlencoded-form": {
+          "Form item: \"usuario\" = \"admin\"": {
+            "urlencoded-form.key": "usuario",
+            "urlencoded-form.value": "admin"
+          },
+          "Form item: \"password\" = \"admin123\"": {
+            "urlencoded-form.key": "password",
+            "urlencoded-form.value": "admin123"
+          }
+        }
+      }
+    }
+  }
+]
